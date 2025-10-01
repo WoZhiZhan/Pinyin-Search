@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.7.11",
+  "package": "com.wzz.pinyinsearch.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.pinyinsearch.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "SearchTreeFullTextMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
